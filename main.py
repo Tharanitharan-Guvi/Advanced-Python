@@ -1,6 +1,3 @@
-lst = [1,2,3]
-
-for i in lst:
-    print(i, end=" ")
-print()
-print(*lst)
+data = list(input())
+result = list(filter(lambda x: x.lower() not in "aeiou", data))
+print("".join(result))

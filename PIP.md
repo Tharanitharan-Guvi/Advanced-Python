@@ -45,8 +45,6 @@ pip list
 ```
 
 ### Need to run install/uninstall multiple modules / packages
-
-
 ```
 pip install -r <textfileName>.txt
 pip uninstall -r <textfileName>.txt

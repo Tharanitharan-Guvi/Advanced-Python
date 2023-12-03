@@ -1,5 +1,5 @@
-num = 1
+import main
 
-while num <= 10:
-    print(num)
-    num += 1
+print(main.batch)
+for i in main.fibonnaci(10):
+    print(i)

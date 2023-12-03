@@ -6,5 +6,4 @@ def fibonnaci(n):
         yield f1
         f1, f2 = f2, f1+f2
 
-for i in fibonnaci(10):
-    print(i)
+batch = "PAT23"

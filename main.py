@@ -1,9 +1,17 @@
-def fibonnaci(n):
-    f1 = 0
-    f2 = 1
+# Email Validation
+import re
 
-    for i in range(1, n+1):
-        yield f1
-        f1, f2 = f2, f1+f2
+def validate_email(email):
+    pattern = '^[a-zA-Z0-9]+@[a-zA-Z0-9]+.[a-zA-Z]{2,4}'
 
-batch = "PAT23"
+    result = re.search(pattern, email)
+
+    if result is not None:
+        return True
+    else:
+        return False
+
+print(validate_email('tharani@guvi.in'))
+print(validate_email('tharaniguvi.in'))
+print(validate_email('@guvi.in'))
+

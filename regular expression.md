@@ -36,6 +36,7 @@ print(result.group())
 (10, 15)
 world
 ```
+---
 
 2. findall()
 
@@ -57,6 +58,7 @@ print(result)
 ```
 ['world', 'world']
 ```
+---
 
 ## Patterns
 
@@ -80,6 +82,8 @@ print(result)
 ['world', 'world', 'wa cd']
 ```
 
+---
+
 2. Caret (^)
 
 It is used to check if a string **starts with** a certain pattern
@@ -93,6 +97,9 @@ pattern = "^T..."
 result = re.search(pattern, sentence)
 print(result)
 ```
+
+---
+
 
 3. Dollar ($)
 
@@ -121,6 +128,9 @@ None
 <re.Match object; span=(0, 2), match='Td'>
 ```
 
+---
+
+
 4. Star (*)
 
 It matches with **zero or more** occurences of the pattern.
@@ -140,6 +150,9 @@ print(result)
 ```
 ['mn', 'man', 'maaan', 'man']
 ```
+
+---
+
 
 5. Plus (+)
 
@@ -161,6 +174,9 @@ print(result)
 ['man', 'maaan', 'man']
 ```
 
+---
+
+
 6. Question Mark (?)
 
 It matches **zero or one occurances** of the pattern
@@ -181,6 +197,9 @@ print(result)
 ['mn', 'man', 'man']
 ```
 
+---
+
+
 7. Braces ({})
 
 ```python
@@ -198,6 +217,9 @@ print(result)
 ['man', 'maaan', 'man']
 ```
 
+---
+
+
 8. Square Brackets []
 
 A set of character you wish for
@@ -211,6 +233,8 @@ pattern = "m[a-zA-Z0-9]*n"
 result = re.findall(pattern, sentence)
 print(result)
 ```
+
+---
 
 
 **Example**

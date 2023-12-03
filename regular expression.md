@@ -10,7 +10,7 @@ import re
 
 ## Functions in RegEx:
 
-1. search()
+### 1. search()
 
 It will return us the match object of the first occurance of the pattern.
 
@@ -38,7 +38,7 @@ world
 ```
 ---
 
-2. findall()
+### 2. findall()
 
 It returns all the occurances of the pattern in the string.
 
@@ -62,7 +62,7 @@ print(result)
 
 ## Patterns
 
-1. Period (.)
+### 1. Period (.)
 
 A period matches any single character except the newline character (\n).
 
@@ -84,7 +84,7 @@ print(result)
 
 ---
 
-2. Caret (^)
+### 2. Caret (^)
 
 It is used to check if a string **starts with** a certain pattern
 
@@ -101,7 +101,7 @@ print(result)
 ---
 
 
-3. Dollar ($)
+### 3. Dollar ($)
 
 It is used to check if a string **ends with** a certain pattern
 
@@ -131,7 +131,7 @@ None
 ---
 
 
-4. Star (*)
+### 4. Star (*)
 
 It matches with **zero or more** occurences of the pattern.
 
@@ -154,7 +154,7 @@ print(result)
 ---
 
 
-5. Plus (+)
+### 5. Plus (+)
 
 It matches **one or more occurances** of the pattern
 
@@ -177,7 +177,7 @@ print(result)
 ---
 
 
-6. Question Mark (?)
+### 6. Question Mark (?)
 
 It matches **zero or one occurances** of the pattern
 
@@ -200,7 +200,7 @@ print(result)
 ---
 
 
-7. Braces ({})
+### 7. Braces ({})
 
 ```python
 import re
@@ -220,7 +220,7 @@ print(result)
 ---
 
 
-8. Square Brackets []
+### 8. Square Brackets []
 
 A set of character you wish for
 
@@ -237,9 +237,9 @@ print(result)
 ---
 
 
-**Example**
+## **Example**
 
-1. Validate an email
+### 1. Validate an email
 
 ```python
 # Email Validation
